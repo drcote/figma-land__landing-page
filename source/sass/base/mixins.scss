@@ -1,0 +1,24 @@
+@mixin font-text ($size, $line, $color, $weight: normal, $font: $font) {
+  font-family: $font, "Helvetica", sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+  color: $color;
+}
+
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin position-element {
+  padding: 0 30px;
+  margin: 0 auto;
+  
+
+  @media (min-width: $width-desktop) {
+    width: $width-desktop;
+    padding: 0 40px;
+  }
+}

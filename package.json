@@ -1,0 +1,40 @@
+{
+  "name": "figma-land__landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp start",
+    "prod": "gulp production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drcote/figma-land__landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drcote/figma-land__landing-page/issues"
+  },
+  "homepage": "https://github.com/drcote/figma-land__landing-page#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgstore": "^8.0.0",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^6.0.1",
+    "posthtml-include": "^1.7.1",
+    "stylelint": "^13.13.1"
+  }
+}
