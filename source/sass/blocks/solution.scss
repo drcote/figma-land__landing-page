@@ -1,0 +1,17 @@
+.solution__title {
+  @include font-text(46px, 1.23, $text-color-black, 500);
+}
+
+.solution__desc {
+  @include font-text(18px, 1.5, $text-color-second);
+}
+
+.solution__link {
+  @include font-text(16px, 1, $text-color-white, 500);
+  background-color: $background-color-button;
+}
+
+.solution__link--trans {
+  color: $text-color-process;
+  background-color: transparent;
+}

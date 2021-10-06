@@ -1,0 +1,16 @@
+.subscribe__title {
+  @include font-text(46px, 1.23, $text-color-black, 500);
+}
+
+.subscribe__desc {
+  @include font-text(18px, 1.5, $text-color-second);
+}
+
+.subscribe__input {
+  @include font-text(15px, 1.6, $text-color-second, 700);
+}
+
+.subscribe__button {
+  @include font-text(16px, 1, $text-color-white, 500);
+  background-color: $text-color-link;
+}

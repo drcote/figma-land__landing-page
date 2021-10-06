@@ -1,0 +1,7 @@
+.pricing__title {
+  @include font-text(46px, 1.23, $text-color-black, 500);
+}
+
+.pricing__desc {
+  @include font-text(18px, 1.5, $text-color-second);
+}

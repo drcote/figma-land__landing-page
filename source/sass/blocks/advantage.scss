@@ -1,0 +1,4 @@
+.advantage__title {
+  @include font-text(46px, 1.23, $text-color-black, 500);
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,21 @@
+.header {
+  background: $background-color;
+}
+
+.header__title {
+  @include font-text(46px, 1.23, $text-color-white, 500);
+}
+
+.header__desc {
+  @include font-text(16px, 1.25, $text-color-white, 700);
+}
+
+.header__link {
+  @include font-text(16px, 1, $text-color-button, 500);
+  background-color: $text-color-button;
+}
+
+.header__link--tras {
+  color: $text-color-white;
+  background-color: transparent;
+}

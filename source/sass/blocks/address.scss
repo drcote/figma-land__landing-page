@@ -1,0 +1,7 @@
+.address__text {
+  @include font-text(15px, 1.8, $text-color-white);
+}
+
+.address__tel {
+  @include font-text(15px, 1.8, $text-color-white);
+}
