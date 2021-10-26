@@ -15,8 +15,9 @@
 
 .header__title {
   @include font-text(46px, 1.23, $text-color-white, 500);
-  width: 335px;
+  width: 327px;
   margin: 45px auto 10px auto;
+  text-align: center;
 }
 
 .header__desc {
