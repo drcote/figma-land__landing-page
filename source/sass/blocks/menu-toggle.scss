@@ -2,8 +2,13 @@
   display: none;
 }
 
-.menu-toggle__container {
+.menu-toggle {
   display: flex;
+  align-items:center;
+}
+
+.menu-toggle__container {
+  display: block;
   position: relative;
 
   width: 44px;

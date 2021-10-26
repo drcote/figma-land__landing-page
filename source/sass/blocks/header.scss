@@ -2,8 +2,21 @@
   background: $background-color;
 }
 
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.header__inner {
+  display: flex;
+}
+
 .header__title {
   @include font-text(46px, 1.23, $text-color-white, 500);
+  width: 335px;
+  margin: 45px auto 10px auto;
 }
 
 .header__desc {
@@ -25,5 +38,7 @@
 }
 
 .header__link--sing-up {
-  padding: 8px 19px;
+  display: block;
+  padding: 18px 29px;
+  margin-right: 20px;
 }
