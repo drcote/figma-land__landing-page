@@ -13,17 +13,25 @@
   margin-bottom: 64px;
 }
 
+.advantage-item__img {
+  margin: 40px 0 20px 0;
+}
+
 .advantage-item__title {
   @include font-text(30px, 1.1, $text-color-black, 700);
+  margin-bottom: 20px;
 }
 
 .advantage-item__desc {
   @include font-text(18px, 1.5, $text-color-second);
   letter-spacing: 0.2px;
+  margin: 0 60px;
 }
 
 .advantage-item__link {
   @include font-text(15px, 1.8, $text-color-link);
+  display: block;
+  margin-top: 30px;
 }
 
 .advantage-item__title--color,

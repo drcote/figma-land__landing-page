@@ -1,16 +1,43 @@
+.subscribe {
+  border-top: 1px solid $line-color;
+  text-align: center;
+  padding-top: 119px;
+  padding-bottom: 109px;
+}
+
 .subscribe__title {
   @include font-text(46px, 1.23, $text-color-black, 500);
 }
 
 .subscribe__desc {
   @include font-text(18px, 1.5, $text-color-second);
+  margin-top: 17px;
+}
+
+.subscribe__form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 
 .subscribe__input {
   @include font-text(15px, 1.6, $text-color-second, 700);
+  background: $input-color-background;
+  border: 1px solid $input-color-border;
+  border-radius: 7px;
+  padding: 16px 147.5px;
+  margin: 0 auto 12px auto;
+  width: 483px;
+
 }
 
 .subscribe__button {
   @include font-text(16px, 1, $text-color-white, 500);
   background-color: $text-color-link;
+  border: none;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  padding: 23px 200.5px;
+  margin: 0 auto;
+  width: 483px;
 }

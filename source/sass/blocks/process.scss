@@ -1,5 +1,14 @@
+.process {
+  padding-top: 145px;
+}
+
+.process__wrapper {
+  margin: 0 17.7vw 0 17.7vw;
+}
+
 .process__title {
   @include font-text(46px, 1.23, $text-color-black, 500);
+  margin-bottom: 25px;
 }
 
 .process__desc {
@@ -7,13 +16,34 @@
   letter-spacing: 0.2px;
 }
 
+.process__img {
+  display: block;
+  width: 523px;
+  height: 458px;
+  margin: 88px auto;
+}
+
+.process__wrapper-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .process__link {
   @include font-text(16px, 1, $text-color-white, 500);
   letter-spacing: 0.2px;
   background-color: $background-color-button;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 39px;
+  padding: 18px 107px;
+}
+
+.process__link:not(:last-child) {
+  margin-bottom: 22px;
 }
 
 .process__link--trans {
   color: $text-color-process;
   background-color: transparent;
+  border: 1px solid $text-color-process;
 }

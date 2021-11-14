@@ -1,7 +1,15 @@
+.pricing {
+  padding-top: 159px;
+  padding-bottom: 150px;
+}
+
 .pricing__title {
   @include font-text(46px, 1.23, $text-color-black, 500);
+  margin: 0 17.1vw;
 }
 
 .pricing__desc {
   @include font-text(18px, 1.5, $text-color-second);
+  margin: 12px 22.8vw 65px 22.8vw;
+  text-align: center;
 }

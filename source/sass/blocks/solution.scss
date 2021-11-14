@@ -1,17 +1,48 @@
+.solution {
+  padding-top: 157px;
+}
+
+.solution__wrapper-text {
+  margin: 0 14.2vw;
+  text-align: center;
+}
+
 .solution__title {
   @include font-text(46px, 1.23, $text-color-black, 500);
 }
 
 .solution__desc {
   @include font-text(18px, 1.5, $text-color-second);
+  margin-top: 17px;
+}
+
+.solution__img {
+  display: block;
+  width: 523px;
+  height: 318px;
+  margin: 68px auto;
+}
+
+.solution__wrepper-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .solution__link {
   @include font-text(16px, 1, $text-color-white, 500);
   background-color: $background-color-button;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 39px;
+  padding: 30px 85px;
+}
+
+.solution__link:not(:last-child) {
+  margin-bottom: 13px;
 }
 
 .solution__link--trans {
   color: $text-color-process;
   background-color: transparent;
+  border: 1px solid $text-color-process;
 }

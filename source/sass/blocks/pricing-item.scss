@@ -1,20 +1,77 @@
+.pricing-item {
+  border: 1px solid $border-color-advantage-item;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 335px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.pricing-item:not(:last-child) {
+  margin-bottom: 33px;
+}
+
 .pricing-item__title {
   @include font-text(30px, 1.1, $text-color-black, 700);
+  margin-bottom: 10px;
 }
 
 .pricing-item__desc {
   @include font-text(12px, 1.5, $text-color-second, 700);
+  margin-bottom: 30px;
+  display: block;
+}
+
+.pricing-item__img {
+  margin-bottom: 30px;
 }
 
 .pricing-item__price {
+  display: grid;
+  grid-template-areas: 
+  "cost currensy"
+  "cost time";
+  //grid-template-columns: 1fr 1fr;
+  align-items: center;
+}  
+
+.pricing-item__cost {
+  @include font-text(55px, 1.18, $text-color-process, 900);
+  grid-area: cost;
+  margin-left: auto;
+}
+
+.pricing-item__currency {
+  @include font-text(33px, 1.1, $text-color-process, 700);
+  grid-area: currensy;
+  margin-right: auto;
+}
+
+.pricing-item__time{
   @include font-text(12px, 1.5, $text-color-second, 700);
+  grid-area: time;
+  margin-right: auto;
 }
 
 .pricing-item__list-item {
   @include font-text(15px, 1.8, $text-color-black);
 }
 
+.pricing-item__list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.pricing-item__list {
+  @include reset-list;
+  margin: 40px 0;
+}
+
 .pricing-item__link {
   @include font-text(16px, 1, $text-color-white, 500);
   background-color: $text-color-link;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+  border-radius: 39px;
+  padding: 18px 82px;
+  display: inline-block;
 }
