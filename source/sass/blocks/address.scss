@@ -1,7 +1,43 @@
+.address__img {
+  display: block;
+  width: 335px;
+  height: 248px;
+  border-radius: 22px;
+  margin: 0 auto;
+}
+
+.address__wrapper {
+  margin: 87px 20.2vw 32px 20.2vw;
+}
+
 .address__text {
   @include font-text(15px, 1.8, $text-color-white);
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10.5px;
+}
+
+.address__text::before {
+  content: '';
+  width: 46px;
+  height: 46px;
+  background: url('../img/point.svg') no-repeat center;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .address__tel {
   @include font-text(15px, 1.8, $text-color-white);
+  display: flex;
+  align-items: center;
+}
+
+.address__tel::before {
+  content: '';
+  width: 35px;
+  height: 35px;
+  background: url('../img/phone.svg') no-repeat center;
+  display: inline-block;
+  margin-right: 10px;
 }

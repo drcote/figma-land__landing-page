@@ -1,8 +1,10 @@
 .footer {
 background: $text-color-button;
-padding: 62px 0;
+padding: 62px 0 82px 0;
 }
 
 .footer__slogan {
   @include font-text(12px, 1.5, $text-color-white, 700, "Roboto");
+  margin-left: 21.6vw;
+  margin-bottom: 87px;
 }

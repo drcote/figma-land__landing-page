@@ -1,3 +1,18 @@
+.price__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20.5vw 66px 20.5vw;
+  justify-content: space-between;
+}
+
+.price__list {
+  @include reset-list;
+}
+
 .price__item {
   @include font-text(15px, 1.8, $text-color-white);
+}
+
+.price__item:not(:last-child) {
+  margin-bottom: 20px;
 }

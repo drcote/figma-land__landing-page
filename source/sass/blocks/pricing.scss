@@ -6,6 +6,7 @@
 .pricing__title {
   @include font-text(46px, 1.23, $text-color-black, 500);
   margin: 0 17.1vw;
+  text-align: center;
 }
 
 .pricing__desc {
